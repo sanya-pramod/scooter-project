@@ -14,7 +14,7 @@ You are encouraged to practice test-driven development (TDD), but you can write 
 
 ## Getting Started
 
-1. [Create a new repository using this template](https://github.com/new?template_name=scooter-project&template_owner=MultiverseLearningProducts&name=scooter-project&description=An%20electric%20scooter%20hire%20app%20created%20using%20UML%2C%20TDD%2C%20and%20OOP.).
+1. [Create a new repository using this template](https://github.com/new?template_name=scooter-project&template_owner=MultiverseLearningProducts).
 2. Clone your new repository.
 3. Open your new repository in Visual Studio Code.
 4. [Open a terminal window in Visual Studio Code](https://code.visualstudio.com/docs/terminal/basics).
@@ -116,10 +116,10 @@ The `ScooterApp` class keeps track of all registered users, plus all the scooter
 
 The `ScooterApp` class should include the following **static** properties:
 
-| Property                     | Type     | Description                                                               |
-| ---------------------------- | -------- | ------------------------------------------------------------------------- |
-| `ScooterApp.stations`        | `object` | An object whose keys are stations and whose values are arrays of scooters |
-| `ScooterApp.registeredUsers` | `object` | An object whose keys are usernames and whose values are users             |
+| Property                     | Type     | Description                                                           |
+| ---------------------------- | -------- | --------------------------------------------------------------------- |
+| `ScooterApp.stations`        | `object` | An object whose keys stations and whose values are arrays of scooters |
+| `ScooterApp.registeredUsers` | `object` | An object whose keys are usernames and whose values are users         |
 
 - You can hard-code the stations in the constructor.
 - There should be at least three stations.
